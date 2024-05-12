@@ -1,5 +1,7 @@
 # Домашнее задание: работа с mdadm
-Сочтояние масива
+Ссылка на vagrant box - https://app.vagrantup.com/generic/boxes/ubuntu2204/versions/4.3.12/providers/virtualbox/amd64/vagrant.box
+Скрипт md.sh создает массив.
+### Сочтояние масива
 ```
 vagrant@mdadm:~$ cat /proc/mdstat 
 Personalities : [raid10] [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] 
